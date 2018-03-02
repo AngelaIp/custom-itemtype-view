@@ -1,0 +1,31 @@
+﻿<AML>
+ <Item type="Method" id="5455DD3C65F949A1822A43325639B9AC" action="add">
+  <comments>Click Method for custom 'Lock' CUI element</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = this.getInnovator();
+
+var topWindow = aras.getMostTopWindowWithAras(window); 
+if (topWindow.work && topWindow.work.grid) 
+{ 
+    var workFrame = topWindow.work; 
+    
+    // var selectedIds = workFrame.grid.getSelectedItemIds(',').split(',');
+    var id = workFrame.grid.getSelectedID();
+    
+    var item = inn.getItemById("Part", id);
+    item.setAction("lock"); 
+    item.setAttribute("doGetItem", "0");
+    item = item.apply();
+    if (item.isError()) 
+    {
+	    return aras.AlertError(item.getErrorString());
+    }
+    main.work.searchContainer.runSearch();
+}
+
+return item;
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>BPL_custom_view_Lock</name>
+ </Item>
+</AML>

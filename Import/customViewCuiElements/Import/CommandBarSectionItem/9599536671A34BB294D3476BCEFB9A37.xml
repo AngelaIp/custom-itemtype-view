@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="9599536671A34BB294D3476BCEFB9A37" action="add">
+  <action>Replace</action>
+  <alternate keyed_name="BPL_custom_view_WhereUsed" type="CommandBarItem">A66482CD0F5A45159E9675578FB57861</alternate>
+  <related_id keyed_name="com.aras.innovator.cui_default.pmig_Where Used" type="CommandBarItem">
+   <Item type="CommandBarMenu" id="800E29C692D5456CA1C989A359EF5F4D" action="add">
+    <additional_data>{ "cui_resource_key": "itemsgrid.cntxt_menu.where_used" }</additional_data>
+    <on_click_handler keyed_name="cui_default_pmig_WhereUsed" type="Method">A0797A2083F84AFDA1078471ABC8E827</on_click_handler>
+    <name>com.aras.innovator.cui_default.pmig_Where Used</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>20</sort_order>
+  <source_id keyed_name="bpl_custom_view_MainWindowPopupMenu" type="CommandBarSection">3B72529B71B34E1CACFA48B9705820CC</source_id>
+ </Item>
+</AML>

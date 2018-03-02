@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="D2407D02EF184365846873AC85BE2644" action="add">
+  <action>Replace</action>
+  <alternate keyed_name="BPL_custom_view_Save" type="CommandBarItem">BAABA482DDC94E63A75ADA1924055A2B</alternate>
+  <related_id keyed_name="com.aras.innovator.cui_default.mwt_main_toolbar_save" type="CommandBarItem">
+   <Item type="CommandBarButton" id="C5506015E6624632B7E6643FD0890BEB" action="add">
+    <additional_data>{ "cui_disabled": "true" }</additional_data>
+    <image>../images/Save.svg</image>
+    <include_events>SelectInToc,SelectInGrid</include_events>
+    <label xml:lang="en">Save</label>
+    <on_click_handler keyed_name="cui_default_mwt_onSaveCommand" type="Method">4501E2D38B5F4272A69717F2F3BC778A</on_click_handler>
+    <on_init_handler keyed_name="cui_reinit_mwt_save" type="Method">127551D1C88343BDA9CDD8F33A0A6A22</on_init_handler>
+    <tooltip_template xml:lang="en">Save Item</tooltip_template>
+    <name>com.aras.innovator.cui_default.mwt_main_toolbar_save</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>10</sort_order>
+  <source_id keyed_name="bpl_custom_view_MainWindowToolbar" type="CommandBarSection">74D304862B034BFBBB08BD49F1F61013</source_id>
+ </Item>
+</AML>

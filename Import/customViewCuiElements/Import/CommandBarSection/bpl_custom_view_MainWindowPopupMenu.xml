@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="CommandBarSection" id="3B72529B71B34E1CACFA48B9705820CC" action="add">
+  <classification>Data Model</classification>
+  <location_name>PopupMenuItemGrid</location_name>
+  <name>bpl_custom_view_MainWindowPopupMenu</name>
+  <Relationships>
+   <Item type="CommandBarSectionItem" id="6E76DA9A935546FEA6A293F77312C497" action="add">
+    <action>Replace</action>
+    <alternate keyed_name="BPL_custom_view_StructureBrowser" type="CommandBarItem">12DB2EF483CE4090A863EE944890B9FC</alternate>
+    <related_id keyed_name="com.aras.innovator.cui_default.pmig_Structure Browser" type="CommandBarItem">56D31C035C524E2BA6845FC4D3C261B5</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="bpl_custom_view_MainWindowPopupMenu" type="CommandBarSection">3B72529B71B34E1CACFA48B9705820CC</source_id>
+   </Item>
+   <Item type="CommandBarSectionItem" id="9599536671A34BB294D3476BCEFB9A37" action="add">
+    <action>Replace</action>
+    <alternate keyed_name="BPL_custom_view_WhereUsed" type="CommandBarItem">A66482CD0F5A45159E9675578FB57861</alternate>
+    <related_id keyed_name="com.aras.innovator.cui_default.pmig_Where Used" type="CommandBarItem">800E29C692D5456CA1C989A359EF5F4D</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="bpl_custom_view_MainWindowPopupMenu" type="CommandBarSection">3B72529B71B34E1CACFA48B9705820CC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
