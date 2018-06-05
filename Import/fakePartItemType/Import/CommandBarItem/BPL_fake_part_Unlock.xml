@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="CommandBarButton" id="392B3B64554A4D7E88A8B2EF11434E1B" action="add">
+  <additional_data>{ "cui_disabled": "true" }</additional_data>
+  <image>../Images/UnlockItem.svg</image>
+  <include_events>SelectInToc,SelectInGrid</include_events>
+  <label xml:lang="en">Unlock</label>
+  <on_click_handler keyed_name="BPL_fake_part_Unlock" type="Method">B7BC3D43FC064ED9BAA023789BEF4CD7</on_click_handler>
+  <on_init_handler keyed_name="cui_reinit_mwt_unlock" type="Method">5F7AFC532AB349289A10D52C7F791633</on_init_handler>
+  <tooltip_template xml:lang="en">Unlock Item</tooltip_template>
+  <name>BPL_fake_part_Unlock</name>
+ </Item>
+</AML>

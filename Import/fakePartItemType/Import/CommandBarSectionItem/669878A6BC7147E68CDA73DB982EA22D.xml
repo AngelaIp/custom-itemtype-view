@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="669878A6BC7147E68CDA73DB982EA22D" action="add">
+  <action>Replace</action>
+  <alternate keyed_name="BPL_fake_part_Unlock" type="CommandBarItem">392B3B64554A4D7E88A8B2EF11434E1B</alternate>
+  <related_id keyed_name="com.aras.innovator.cui_default.mwt_main_toolbar_unlock" type="CommandBarItem">
+   <Item type="CommandBarButton" id="1EF72C8B7EDE49058238438FDCF3628B" action="add">
+    <additional_data>{ "cui_disabled": "true" }</additional_data>
+    <image>../images/UnlockItem.svg</image>
+    <include_events>SelectInToc,SelectInGrid</include_events>
+    <label xml:lang="en">Unlock</label>
+    <on_click_handler keyed_name="cui_default_mwt_onUnlockCommand" type="Method">C2C15F67AEA747FABDBD3A03E5D8E292</on_click_handler>
+    <on_init_handler keyed_name="cui_reinit_mwt_unlock" type="Method">61B9FB082D8D4FF294863F38BB4605A8</on_init_handler>
+    <tooltip_template xml:lang="en">Unlock Item</tooltip_template>
+    <name>com.aras.innovator.cui_default.mwt_main_toolbar_unlock</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>40</sort_order>
+  <source_id keyed_name="bpl_fake_part_MainWindowToolbar" type="CommandBarSection">74D304862B034BFBBB08BD49F1F61013</source_id>
+ </Item>
+</AML>

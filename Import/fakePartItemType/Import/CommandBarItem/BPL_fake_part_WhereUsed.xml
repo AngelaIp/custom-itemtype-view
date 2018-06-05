@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="CommandBarMenu" id="A66482CD0F5A45159E9675578FB57861" action="add">
+  <additional_data>{ "cui_resource_key": "itemsgrid.cntxt_menu.where_used" }</additional_data>
+  <on_click_handler keyed_name="BPL_fake_part_WhereUsed" type="Method">59098FE98E58419C951320E1D03583F9</on_click_handler>
+  <name>BPL_fake_part_WhereUsed</name>
+ </Item>
+</AML>

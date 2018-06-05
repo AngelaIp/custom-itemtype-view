@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="Method" id="3A9623CB180C4CEA9AFAD75932E01A98" action="add">
+  <comments>get content for fake Part ItemType</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[// used as onGet/onAdd/onUpdate Server Event
+
+this.setType("Part");
+
+// apply filter option here, e.g.
+// this.setProperty("classification", "Component");
+
+return this.apply();]]></method_code>
+  <method_type>C#</method_type>
+  <name>BPL_fake_part_getContent</name>
+ </Item>
+</AML>

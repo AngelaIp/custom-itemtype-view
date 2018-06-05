@@ -1,7 +1,0 @@
-﻿<AML>
- <Item type="CommandBarMenu" id="12DB2EF483CE4090A863EE944890B9FC" action="add">
-  <additional_data>{ "cui_resource_key": "itemsgrid.cntxt_menu.structure_browser" }</additional_data>
-  <on_click_handler keyed_name="BPL_custom_view_StructureBrowser" type="Method">EEDA6D968AE14CE3A78A3CFF1122E4E6</on_click_handler>
-  <name>BPL_custom_view_StructureBrowser</name>
- </Item>
-</AML>

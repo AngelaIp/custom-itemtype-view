@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Method" id="59098FE98E58419C951320E1D03583F9" action="add">
+  <comments>Click Method for custom 'Where Used' CUI element</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var topWindow = aras.getMostTopWindowWithAras(window);
+var workerFrame = topWindow.work;
+if (workerFrame.currItemType && workerFrame.Dependencies && workerFrame.Dependencies.View) {
+	//workerFrame.Dependencies.View(workerFrame.itemTypeName, inArgs.rowId, true, aras); // Linkt auf Pseudo-ItemType
+	workerFrame.Dependencies.View("Part", workerFrame.grid.getSelectedID(), true, aras); // Linkt auf Part
+	return;
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>BPL_fake_part_WhereUsed</name>
+ </Item>
+</AML>

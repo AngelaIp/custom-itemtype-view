@@ -1,0 +1,215 @@
+﻿<AML>
+ <Item type="ItemType" id="9FFAE24BF16745D3B2FF83AF7E377722" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <default_page_size>25</default_page_size>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>BPL_FAKE_PART</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>1</is_versionable>
+  <label xml:lang="en">Fake Part</label>
+  <label_plural xml:lang="en">Fake Parts</label_plural>
+  <large_icon>../Images/DFMEA.svg</large_icon>
+  <manual_versioning>1</manual_versioning>
+  <open_icon>../Images/DFMEA.svg</open_icon>
+  <revisions keyed_name="BPL_Default" type="Revision">455B8E81307F4C9C8BF5AA046994F598</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs off</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>BPL_Fake_Part</name>
+  <Relationships>
+   <Item type="ITPresentationConfiguration" id="B649BCB5371746AF809B1511E5447138" action="add">
+    <client>js</client>
+    <related_id keyed_name="bpl_fake_part_presentation_configuration" type="PresentationConfiguration">FBFAA95D81C84D2DAF67DF22B07F0A7D</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+   </Item>
+   <Item type="Property" id="F405A9DA94C3472186ACE4AB29BCFF47" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+    <stored_length>30</stored_length>
+    <track_history>0</track_history>
+    <name>item_number</name>
+   </Item>
+   <Item type="Property" id="5F9FB57C6315435694E2D9A84EF6870C" action="add">
+    <column_alignment>left</column_alignment>
+    <column_width>400</column_width>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+    <stored_length>80</stored_length>
+    <track_history>0</track_history>
+    <name>name</name>
+   </Item>
+   <Item type="Server Event" id="C99383CFE7224B6B9ABF976DF32DA7E0" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="BPL_fake_part_getContent" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>BPL_fake_part_getContent</name>
+     </Item>
+    </related_id>
+    <server_event>onAdd</server_event>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+   </Item>
+   <Item type="Server Event" id="3CFF265F102149879ED797A4D595D73A" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="BPL_fake_part_getContent" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>BPL_fake_part_getContent</name>
+     </Item>
+    </related_id>
+    <server_event>onGet</server_event>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+   </Item>
+   <Item type="Server Event" id="9E0B4622CC154EA2AFFF1D4D66FAFB28" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="BPL_fake_part_getContent" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>BPL_fake_part_getContent</name>
+     </Item>
+    </related_id>
+    <server_event>onUpdate</server_event>
+    <sort_order>3</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+   </Item>
+   <Item type="TOC Access" id="CA7E1A2E10CE4B1085E22FE01161B45E" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+    <category>Design</category>
+   </Item>
+   <Item type="Client Event" id="5198B52230AF45ACAD3E561FED769C07" action="add">
+    <client_event>OnShowItem</client_event>
+    <related_id keyed_name="BPL_fake_part_pmtoc_NewItem" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>BPL_fake_part_pmtoc_NewItem</name>
+     </Item>
+    </related_id>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+   </Item>
+   <Item type="Client Event" id="DA540FEE46FC4AA7B4AF333FF84DA97D" action="add">
+    <client_event>OnAfterNew</client_event>
+    <related_id keyed_name="PE_SetOriginator" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>PE_SetOriginator</name>
+     </Item>
+    </related_id>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+   </Item>
+   <Item type="Can Add" id="DA64B8923D0F4D0FBD9271EBEF9CC5F5" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Component Engineering" type="Identity">5F9C887B3B224E358EB257BE51B18949</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="9FFAE24BF16745D3B2FF83AF7E377722" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='9FFAE24BF16745D3B2FF83AF7E377722' and name='major_rev'">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>major_rev</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='9FFAE24BF16745D3B2FF83AF7E377722' and name='minor_rev'">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>minor_rev</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='9FFAE24BF16745D3B2FF83AF7E377722' and name='state'">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>state</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='9FFAE24BF16745D3B2FF83AF7E377722' and name='superseded_date'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Superseded Date</label>
+    <pattern>short_date_time</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="BPL_Fake_Part" type="ItemType" name="BPL_Fake_Part">9FFAE24BF16745D3B2FF83AF7E377722</source_id>
+    <track_history>0</track_history>
+    <name>superseded_date</name>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="View" action="delete" where="source_id='9FFAE24BF16745D3B2FF83AF7E377722'" />
+ <Item type="Form" action="delete" where="name='BPL_Fake_Part'" />
+</AML>

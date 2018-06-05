@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="DC8D7B937B0A402E8646B795F263AAAA" action="add">
+  <action>Replace</action>
+  <alternate keyed_name="BPL_fake_part_SaveAs" type="CommandBarItem">EAE866A94B4F45D89CF057214BC1ED39</alternate>
+  <related_id keyed_name="com.aras.innovator.cui_default.mwt_main_toolbar_saveAs" type="CommandBarItem">
+   <Item type="CommandBarButton" id="D39591F23C584E77B41B6FB7245B2F5F" action="add">
+    <additional_data>{ "cui_disabled": "true" }</additional_data>
+    <image>../images/SaveAs.svg</image>
+    <include_events>SelectInToc,SelectInGrid</include_events>
+    <label xml:lang="en">Save As</label>
+    <on_click_handler keyed_name="cui_default_mwt_onSaveAsCommand" type="Method">A7161370AB5C46D9B6417E346EE48840</on_click_handler>
+    <on_init_handler keyed_name="cui_reinit_mwt_saveAs" type="Method">21C9566A9FE74E298C306B4FF4A71B40</on_init_handler>
+    <tooltip_template xml:lang="en">Copy and Save Item</tooltip_template>
+    <name>com.aras.innovator.cui_default.mwt_main_toolbar_saveAs</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>20</sort_order>
+  <source_id keyed_name="bpl_fake_part_MainWindowToolbar" type="CommandBarSection">74D304862B034BFBBB08BD49F1F61013</source_id>
+ </Item>
+</AML>

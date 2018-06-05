@@ -1,0 +1,33 @@
+﻿<AML>
+ <Item type="Method" id="C781F67DE08743569B707755FC97F6C8" action="add">
+  <comments>Init Method for custom 'Save' CUI element</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[if (inArgs.isReinit) {
+	var topWindow = aras.getMostTopWindowWithAras(window);
+	var workerFrame = topWindow.work;
+	if (workerFrame.itemTypeName === 'InBasket Task') {
+		return {'cui_disabled': true};
+	}
+	if (Object.getOwnPropertyNames(inArgs.eventState).length === 0) {
+		var states = aras.evalMethod('cui_reinit_calculate_states', '', {eventType: inArgs.eventType});
+		//	var states = aras.evalMethod('	BPL_cui_reinit_calculate_states', '', {eventType: inArgs.eventType});
+		
+		
+	
+		var keys = Object.keys(states);
+		for (var i = 0; i < keys.length; i++) {
+			inArgs.eventState[keys[i]] = states[keys[i]];
+		}
+	}
+
+	if (workerFrame) {
+	    // return {'cui_disabled': !(inArgs.eventState.isSave && !isFunctionDisabled(workerFrame.itemTypeName, 'Save'))}; // would link to 'Fake Part' ItemType
+		return {'cui_disabled': !(inArgs.eventState.isSave && !isFunctionDisabled('Part', 'Save'))};
+	}
+}
+return {};
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>BPL_fake_part_reinit_mwt_save</name>
+ </Item>
+</AML>

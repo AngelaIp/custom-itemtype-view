@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="CommandBarButton" id="59598A59459A45A7953B61183E1866B9" action="add">
+  <additional_data>{ "cui_disabled": "true" }</additional_data>
+  <image>../Images/LockItem.svg</image>
+  <include_events>SelectInToc,SelectInGrid</include_events>
+  <label xml:lang="en">Lock</label>
+  <on_click_handler keyed_name="BPL_fake_part_Lock" type="Method">5455DD3C65F949A1822A43325639B9AC</on_click_handler>
+  <on_init_handler keyed_name="cui_reinit_mwt_lock" type="Method">B2852BE14C6348CBBEFC398ECE62A6E2</on_init_handler>
+  <tooltip_template xml:lang="en">Lock Item</tooltip_template>
+  <name>BPL_fake_part_Lock</name>
+ </Item>
+</AML>

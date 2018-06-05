@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="FB732DCED0A24A1DBFEB7BF39AF524DC" action="add">
+  <action>Replace</action>
+  <alternate keyed_name="BPL_fake_part_Lock" type="CommandBarItem">59598A59459A45A7953B61183E1866B9</alternate>
+  <related_id keyed_name="com.aras.innovator.cui_default.mwt_main_toolbar_lock" type="CommandBarItem">
+   <Item type="CommandBarButton" id="1992B00BEAB5479FADD6751B074DEDB2" action="add">
+    <additional_data>{ "cui_disabled": "true" }</additional_data>
+    <image>../images/LockItem.svg</image>
+    <include_events>SelectInToc,SelectInGrid</include_events>
+    <label xml:lang="en">Lock</label>
+    <on_click_handler keyed_name="cui_default_mwt_onLockCommand" type="Method">E711D9281AC04FBD9D2C9C2A12C3511E</on_click_handler>
+    <on_init_handler keyed_name="cui_reinit_mwt_lock" type="Method">BDE1C0C2881649B08C8710EE71A8C2F4</on_init_handler>
+    <tooltip_template xml:lang="en">Lock Item</tooltip_template>
+    <name>com.aras.innovator.cui_default.mwt_main_toolbar_lock</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>30</sort_order>
+  <source_id keyed_name="bpl_fake_part_MainWindowToolbar" type="CommandBarSection">74D304862B034BFBBB08BD49F1F61013</source_id>
+ </Item>
+</AML>

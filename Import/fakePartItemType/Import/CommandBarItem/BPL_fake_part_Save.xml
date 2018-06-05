@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="CommandBarButton" id="BAABA482DDC94E63A75ADA1924055A2B" action="add">
+  <additional_data>{ "cui_disabled": "true" }</additional_data>
+  <image>../Images/Save.svg</image>
+  <include_events>SelectInToc,SelectInGrid</include_events>
+  <label xml:lang="en">Save</label>
+  <on_click_handler keyed_name="BPL_fake_part_Save" type="Method">B3D86CADE9B842C7ABFE9DD76CEAE2AD</on_click_handler>
+  <on_init_handler keyed_name="cui_reinit_mwt_save" type="Method">077518ADB02344C3A9AED5DA42983B2A</on_init_handler>
+  <tooltip_template xml:lang="en">Save Item</tooltip_template>
+  <name>BPL_fake_part_Save</name>
+ </Item>
+</AML>
