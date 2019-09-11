@@ -19,6 +19,7 @@ Benefits:
 Aras 11.0 SP11
 
 #### Versions Tested:
+Aras 11.0 SP15
 Aras 11.0 SP11
 Aras 11.0 SP9
 
